@@ -8,8 +8,6 @@ const client = new Client('127.0.0.1', 57120);
 const WebAudioScheduler = require("web-audio-scheduler");
 const sched = new WebAudioScheduler();
 
-let masterGain = null;
-
 const metronome = (e) => {
   const t0 = e.playbackTime;
 
