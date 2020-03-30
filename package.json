@@ -5,13 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "moha": "node mohayonao-scheduler.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "nanotimer": "^0.3.15",
     "node-osc": "^4.1.8",
-    "prompt": "^1.0.0"
+    "prompt": "^1.0.0",
+    "web-audio-engine": "^0.13.4",
+    "web-audio-scheduler": "^1.4.0"
   }
 }
