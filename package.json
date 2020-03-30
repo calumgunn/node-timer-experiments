@@ -1,0 +1,16 @@
+{
+  "name": "js-conductive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nanotimer": "^0.3.15",
+    "node-osc": "^4.1.8"
+  }
+}
