@@ -30,3 +30,10 @@ Then, in this project:
 npm install
 npm run start
 ```
+
+Or, to run the web audio scheduler ver:
+
+```
+npm run moha
+
+```
